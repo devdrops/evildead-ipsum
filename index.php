@@ -104,6 +104,8 @@ if ( isset( $_GET['submit'] ) ){
                     <div class="col-lg-12">
                         <p>
                             Contact: <a href="https://twitter.com/devdrops">@devdrops</a>
+                            &nbsp;
+                            Source at <a href="https://github.com/devdrops/evildead-ipsum">Github</a>
                         </p>
                     </div>
                 </div>
