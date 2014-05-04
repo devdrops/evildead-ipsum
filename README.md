@@ -12,4 +12,4 @@ A lorem ipsum text generator based on Evil Dead movie trilogy.
 @GunGeekATX for http://baconipsum.com/
 
 ## Contact
-@devdrops
+https://twitter.com/devdrops
