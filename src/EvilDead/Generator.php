@@ -75,7 +75,8 @@ class Generator {
             'Necktie',
             'Neckturn',
             'Nickel',
-            'Hail to the king',            
+            'Hail to the king',
+            'S-Mart',
 		);
 
 		$ipsum = array(
