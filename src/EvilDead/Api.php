@@ -13,8 +13,7 @@ class Api
     /**
      * 
      */
-	function api()
-    {
+	function api() {
 		if (isset($_REQUEST['submit'])) { 
 		
 			require_once __DIR__ . '/Generator.php';
@@ -31,8 +30,6 @@ class Api
 				$numberOfSentences  = intval($_REQUEST["sentences"]);                
             }
 	
-			$output = '';
-						
 			if ($numberOfParagraphs < 1){
 				$numberOfParagraphs = 1;                
             }
@@ -53,21 +50,6 @@ class Api
 				$startWithLorem, 
 				$numberOfSentences);
 	
-            /*
-			header('Access-Control-Allow-Origin: *');
-	
-			if (isset($_REQUEST["callback"])) {
-				header("Content-Type: application/javascript");
-				echo $_GET['callback'] . '(' . json_encode($paras) . ')';
-			}
-			else {
-				header("Content-Type: application/json; charset=utf-8");
-				echo json_encode($paras);
-			}		
-	
-			exit;	
-             * 
-             */
             return $paras;
 		}	
 	}
