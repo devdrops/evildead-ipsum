@@ -17,9 +17,7 @@ if ( isset( $_GET['submit'] ) ){
         <meta name="description" content="">
         <meta name="author" content="">
         <title>EvilDead Ipsum - A Kandarian Lorem Ipsum Generator</title>
-        <!-- Bootstrap core CSS -->
         <link href="half-slider/css/bootstrap.css" rel="stylesheet">
-        <!-- Add custom CSS here -->
         <link href="half-slider/css/half-slider.css" rel="stylesheet">
         <link rel="icon" type="image/png" href="/favicon.png">
     </head>
@@ -40,7 +38,6 @@ if ( isset( $_GET['submit'] ) ){
             </div>
         </nav>
         <div id="myCarousel" class="carousel slide">
-            <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
                     <div class="fill" style="background-image:url('images/evil_dead_1.png');"></div>                
@@ -112,17 +109,10 @@ if ( isset( $_GET['submit'] ) ){
                 </div>
             </footer>
         </div>
-        <!-- /.container -->
-
-        <!-- JavaScript -->
         <script src="half-slider/js/jquery-1.10.2.js"></script>
         <script src="half-slider/js/bootstrap.js"></script>
-
-        <!-- Script to Activate the Carousel -->
         <script>
-        $('.carousel').carousel({
-            interval: 5000 //changes the speed
-        })
+            $('.carousel').carousel({interval: 5000})
         </script>
     </body>
 </html>
