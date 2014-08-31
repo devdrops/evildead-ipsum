@@ -21,7 +21,7 @@ if ( isset( $_GET['submit'] ) ){
         <link href="half-slider/css/bootstrap.css" rel="stylesheet">
         <!-- Add custom CSS here -->
         <link href="half-slider/css/half-slider.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="/images/1409470553_Skull.png">
+        <link rel="icon" type="image/png" href="/favicon.png">
     </head>
     <body>
         <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
