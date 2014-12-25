@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . '/src/EvilDead/Api.php';
+include_once __DIR__ . '/vendor/autoload.php';
 
 $api = new Api();
 
